@@ -15,7 +15,7 @@ function partition(items, left, right) {
     let r = right;
     let pivot = items[Math.floor((right + left) / 2)];
     
-    while (l < r) {
+    while (l <= r) {
         while (items[l] < pivot) {
             l++;
         }

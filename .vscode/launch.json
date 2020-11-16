@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "NodeJs",
-            "program": "${workspaceFolder}/microsoft.js",
+            "program": "${workspaceFolder}/microsoft1.js",
             "skipFiles": [
                 "<node_internals>/**"
             ]
